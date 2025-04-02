@@ -23,7 +23,7 @@ node.hardware_type = 'c220g5'
 node.disk_image="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU20-64-STD"
 
 # Install and execute a script that is contained in the repository.
-node.addService(pg.Execute(shell="sh", command="/local/repository/setup.sh"))
+node.addService(pg.Execute(shell="sh", command="bash /local/repository/setup.sh"))
 
 # Print the RSpec to the enclosing page.
 pc.printRequestRSpec(request)
