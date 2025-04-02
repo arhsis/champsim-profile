@@ -47,7 +47,7 @@ EOF
 
 function setup_utils() {
    sudo apt-get update
-   sudo apt-get --yes install neovim tmux htop autojump ripgrep perl
+   sudo apt-get --yes install neovim tmux htop autojump ripgrep perl clang-format
    # conda env, autojump, set default editor to nvim
    sudo sh -c 'echo "export PATH=\"/tip/miniforge3/bin:\$PATH\"" >> /root/.bashrc && \
    echo ". /usr/share/autojump/autojump.sh" >> /root/.bashrc && \
