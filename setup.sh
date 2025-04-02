@@ -28,7 +28,7 @@ function setup_champsim() {
 }
 
 function download_traces() {
-    mkdir -p $work_dir/pythia/races
+    mkdir -p $work_dir/pythia/traces
     wget -O $work_dir/pythia/traces/603.bwaves_s-1080B.champsimtrace.xz https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/603.bwaves_s-1080B.champsimtrace.xz
 }
 
